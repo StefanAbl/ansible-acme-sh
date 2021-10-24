@@ -273,9 +273,9 @@ acme_sh_domains:
 #    # Optionally set a different reload command.
 #    install_cert_reloadcmd: "whoami"
 #    # Optionally run commands during different points in the cert issue process:
-#    extra_issue_pre_hook: ""
-#    extra_issue_post_hook: ""
-#    extra_issue_renew_hook: ""
+#    issue_pre_hook: ""
+#    issue_post_hook: ""
+#    issue_renew_hook: ""
 #    # Optionally remove and disable the certificate.
 #    remove: True
 ```
